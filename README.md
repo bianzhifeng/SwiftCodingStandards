@@ -5,22 +5,21 @@ swift编码规范
 # 1.格式规范
 
 ## 1.1. 尽量使用快捷键 ⌘⌥/ 进行代码注释, 而不是使用// 来注释.
-`
-/// <#Description#>
-///
-/// - Parameter testString: <#testString description#>
-/// - Returns: <#return value description#>
-`
+
+### /// <#Description#>
+### ///
+### /// - Parameter testString: <#testString description#>
+### /// - Returns: <#return value description#>
+
 ## 1.2. `ViewController`中使用`//MARK: -`按功能和协议分组.
 * 注: MARK顺序没有强制要求，但System API & Public API一般分别放在第一块和第二块。*
 大致区分为以下几块:
-`
-// MARK: - Public
-// MARK: - Request
-// MARK: - Action
-// MARK: - Private
-// MARK: - Delegate
-`
+### // MARK: - Public
+### // MARK: - Request
+### // MARK: - Action
+### // MARK: - Private
+### // MARK: - Delegate
+
 # 2.命名规范
 
 ## 2.1 常量尽量使用小写`k`字母开头
